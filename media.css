@@ -1,0 +1,74 @@
+
+@media (max-width: 768px) {
+    .about-story h1 {
+        font-size: 2rem;
+    }
+    .story-block {
+        padding: 20px;
+    }
+
+    .join-form-section {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .hero, .sec-2, .sec-3, .sec-4, .sec-5{
+        flex-direction: column;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    #membership h2{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 200px;
+
+    }
+
+    .p-card{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    
+    .sec-4 {
+        height: auto !important; 
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-4 h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    
+    .sec-4 ol {
+        flex-direction: column !important;
+        align-items: flex-start; /* For left align */
+        gap: 30px;
+        margin-left: 10%; /* Center alignment */
+    }
+
+    /* gap between evry list */
+    .comp-list {
+        display: flex;
+        flex-direction: row; /* Number & text together */
+        align-items: center;
+        gap: 20px;
+        text-align: left;
+    }
+
+    .comp-list p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+}
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join Us - Tech Book Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <img src="./Tech_Book_Logo.png" alt="" height="100px">
+            <span> Tech book club </span>
+            <ul class="nav-menu" >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="join-us.html">Join Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="join-section">
+       <main>
+    <section class="join-form-section">
+        <header class="join-header">
+            <h1>Join the Club</h1>
+            <p>Ready to level up your tech game? Fill out the form below to become a member.</p>
+        </header>
+
+        <form class="join-form">
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="input-group">
+                <label>Favorite Tech Stack</label>
+                <select>
+                    <option>Frontend (React, Vue, etc.)</option>
+                    <option>Backend (Node, Python, Go)</option>
+                    <option>Full Stack</option>
+                    <option>DevOps / Cloud</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Select Membership Tier</label>
+                <div class="radio-options">
+                    <label><input type="radio" name="tier" value="starter"> Starter</label>
+                    <label><input type="radio" name="tier" value="pro" checked> Pro</label>
+                    <label><input type="radio" name="tier" value="enterprise"> Enterprise</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">COMPLETE REGISTRATION</button>
+        </form>
+    </section>
+</main>
+
+    </section>
+</body>
+</html>
